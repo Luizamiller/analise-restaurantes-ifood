@@ -6,6 +6,10 @@ Projeto em Python de **limpeza, análise exploratória e extração de insights*
 
 > **Dados:** [iFood Restaurants Data](https://www.kaggle.com/datasets/ricardotachinardi/ifood-restaurants-data), publicado no Kaggle por Ricardo Tachinardi. Cada linha é um restaurante, com nota média, tempo e taxa de entrega, distância, pedido mínimo, faixa de preço e categoria. A base **não tem comentários nem nota por pedido**. Os arquivos brutos (470 MB) não estão no repositório; veja [como baixar](#️-como-rodar).
 
+![Python](https://img.shields.io/badge/Python-3-3776AB?logo=python&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-2.x-150458?logo=pandas&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-notebook-F37626?logo=jupyter&logoColor=white)
+
+📓 **Quer ir direto à análise?** Abra o [notebook narrado](notebooks/analise_restaurantes_ifood.ipynb), que já está executado e renderiza no próprio GitHub.
+
 ---
 
 ## 📌 Principais insights
@@ -99,6 +103,12 @@ Python · pandas · Matplotlib · Jupyter
 - **Cobertura geográfica desigual:** Tocantins aparece com só 109 restaurantes, o que indica falha de cobertura.
 - **Dados de 2020–2021**, durante a pandemia.
 - **Correlação ≠ causalidade** em todos os cruzamentos.
+
+## 🔭 Próximos passos
+
+- Cruzar a nota com o **número de avaliações** (se uma nova coleta trouxer esse campo) para separar nota estável de nota volátil.
+- Comparar restaurantes **dentro de cada categoria e cidade**, com um modelo simples (regressão) controlando tempo, preço e taxa.
+- Fazer uma coleta mais recente para ver se os padrões de 2020–2021 se mantêm fora da pandemia.
 
 ## 📄 Créditos
 
