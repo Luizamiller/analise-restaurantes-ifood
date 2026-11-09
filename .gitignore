@@ -1,0 +1,7 @@
+__pycache__/
+.ipynb_checkpoints/
+.env
+.venv/
+# dados grandes: baixar do Kaggle (ver README)
+data/raw/*.csv
+data/processed/*.csv
