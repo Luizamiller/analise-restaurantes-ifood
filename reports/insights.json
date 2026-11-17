@@ -1,0 +1,68 @@
+{
+  "restaurantes_fev2021": 406399,
+  "restaurantes_nov2020": 361447,
+  "pct_sem_nota_fev": 44.1,
+  "media_errada_com_zeros": 2.52,
+  "nota_media": 4.51,
+  "nota_mediana": 4.67,
+  "pct_nota_5_entre_avaliados": 21.7,
+  "pct_nota_abaixo_4_entre_avaliados": 10.9,
+  "nota_por_tempo": {
+    "até 30": 4.585,
+    "31–40": 4.525,
+    "41–50": 4.487,
+    "51–60": 4.474,
+    "61–90": 4.459,
+    "91–180": 4.452
+  },
+  "pct_abaixo_4_por_tempo": {
+    "até 30": 8.3,
+    "31–40": 10.5,
+    "41–50": 11.6,
+    "51–60": 12.0,
+    "61–90": 13.1,
+    "91–180": 13.5
+  },
+  "spearman_nota": {
+    "tempo_entrega": -0.1,
+    "taxa_entrega": 0.075,
+    "distancia_km": 0.021,
+    "pedido_minimo": -0.068
+  },
+  "nota_frete_gratis": 4.403,
+  "nota_com_frete": 4.528,
+  "categorias_maior_nota": {
+    "Bebidas": 4.722,
+    "Doces & Bolos": 4.734,
+    "Sorvetes": 4.745
+  },
+  "categorias_menor_nota": {
+    "Marmita": 4.365,
+    "Pizza": 4.389,
+    "Brasileira": 4.401
+  },
+  "pct_base_sp": 36.3,
+  "pct_base_sudeste": 61.8,
+  "novos_restaurantes": 60790,
+  "pct_novos_fev": 15.0,
+  "sairam": 15838,
+  "pct_sairam": 4.4,
+  "crescimento_liquido_pct": 12.4,
+  "categorias_mais_novos_pct": {
+    "Bebidas": 20.6,
+    "Açaí": 22.4,
+    "Conveniência": 24.8,
+    "Mercado": 25.6
+  },
+  "saida_por_faixa_nota_pct": {
+    "até 3,5": 5.6,
+    "3,5–4,0": 5.7,
+    "4,0–4,5": 5.2,
+    "4,5–4,8": 4.5,
+    "4,8–5,0": 5.1
+  },
+  "saida_sem_nota_pct": 3.4,
+  "perderam_nota_nov_fev": 34424,
+  "ganharam_nota_nov_fev": 12475,
+  "variacao_mediana_nota": -0.001
+}

@@ -1,0 +1,16 @@
+coleta,etapa,linhas,detalhe
+fev/2021,Base original,406399,14 colunas
+fev/2021,Duplicatas por id removidas,0,id = último trecho da URL
+fev/2021,Cidade/UF extraídas da URL,406399,"1553 cidades, 27 UFs; 0 sem região"
+fev/2021,Nota 0 tratada como 'sem nota',179157,44.1% da base; a menor nota real é 0.5
+fev/2021,Tempos de entrega implausíveis anulados,255,"fora de 5–180 min (mín. -1, máx. 5050)"
+fev/2021,Distâncias implausíveis anuladas,201,"> 50 km (máx. 11,810 km)"
+fev/2021,Pedidos mínimos implausíveis anulados,59,"> R$ 500 (máx. R$ 99,999,999.99)"
+fev/2021,Base final,406399,15 colunas
+nov/2020,Base original,361447,11 colunas
+nov/2020,Duplicatas por id removidas,0,id = último trecho da URL
+nov/2020,Cidade/UF extraídas da URL,361447,"1511 cidades, 27 UFs; 0 sem região"
+nov/2020,Nota 0 tratada como 'sem nota',140447,38.9% da base; a menor nota real é 1.0
+nov/2020,Tempos de entrega implausíveis anulados,151,"fora de 5–180 min (mín. -5, máx. 5060)"
+nov/2020,Distâncias implausíveis anuladas,184,"> 50 km (máx. 11,810 km)"
+nov/2020,Base final,361447,13 colunas

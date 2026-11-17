@@ -1,0 +1,22 @@
+[project]
+name = "panorama-backend"
+version = "2.0.0"
+description = "Panorama Delivery — API analítica (DuckDB sobre Parquet) da base de restaurantes do iFood (Kaggle)."
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "fastapi>=0.120",
+    "uvicorn[standard]>=0.38",
+    "pydantic-settings>=2.11",
+    "duckdb>=2.0.0",
+    "pandas>=2.2",
+    "numpy>=2.1",
+    "matplotlib>=3.9",
+]
+
+[dependency-groups]
+dev = ["pytest>=8.4", "httpx>=0.28", "ruff>=0.14"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+pythonpath = ["."]

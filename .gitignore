@@ -1,0 +1,16 @@
+__pycache__/
+.ipynb_checkpoints/
+.env
+.venv/
+# dados grandes: baixar do Kaggle (ver README)
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.parquet
+data/sintetico/
+backend/.venv/
+web/node_modules/
+web/dist/
+web/test-results/
+web/playwright-report/
+*.tsbuildinfo
+.pytest_cache/
